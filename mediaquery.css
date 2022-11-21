@@ -1,0 +1,33 @@
+@media screen and (min-width:800px) and (max-width:992px) {
+    
+
+   
+    header h1 {
+        
+        font-size:1.8em;
+    }
+
+    label {
+        font-size:1.4em;
+        display:inline;
+    }
+
+    #sexo {
+        display:none;
+    }
+
+    input {
+        font-size:1.2em;
+    }
+
+    input[type=radio] {
+        display:inline-block;
+    }
+    button {
+        font-size:1.5em;
+    }
+
+    footer {
+        display:none;
+    }
+}

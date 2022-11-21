@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilosIdade.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Idade Com JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>    
+<form>
+    <label for="anoNasci">Ano de Nascimento:</label>
+    <input type="number" name="anoNasci" id="anoNasci">
+    <label for="sexo" id="sexo">Sexo:</label>
+    
+    <input type="radio" name="radsex" id="Masculino">
+    <label for="Masculino">Masculino</label>
+    
+    <input type="radio" name="radsex" id="Feminino" checked> 
+    <label for="Feminino">Feminino</label>
+    <button>Verificar</button>
+    <div id="resposta">
+      <div id="imagem"></div> 
+    </div>
+</form>
+
+</main>
+
+
+<script src="js/idade.js"></script>
+
+</body>
+</html>
